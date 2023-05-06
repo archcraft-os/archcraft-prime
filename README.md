@@ -37,10 +37,16 @@ The flavor of Archcraft is a result of many people's requests and polls ([discor
 It's basically a **Bundle** that has everything Archcraft has to offer exclusively. The idea behind this is to provide everything for less and If users want everything, they don't need to get them separately, and have to install everything individually, Instead they can get the complete bundle and all they need to do is, Install the ISO (with the choice of their favorite WM or WC)
 
 **1st ISO Generation :** `Apr 28, 2023` <br>
-**Last Updated :** `Apr 28, 2023`
+**2nd ISO Generation :** `May 06, 2023` <br>
+**Last Updated :** `May 06, 2023`
 
 <details>
 <summary><b>Changelogs</b></summary>
+
+## May 2023
+- Nothing Much, Just Updated The ISO with Fixed NEWM
+
+---
 
 ## April 2023
 - Created the ISO base from scratch
