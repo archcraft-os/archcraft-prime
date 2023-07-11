@@ -38,10 +38,45 @@ It's basically a **Bundle** that has everything Archcraft has to offer exclusive
 
 **1st ISO Generation :** `Apr 28, 2023` <br>
 **2nd ISO Generation :** `May 06, 2023` <br>
-**Last Updated :** `May 06, 2023`
+**3rd ISO Generation :** `July 10, 2023` <br>
+**Last Updated :** `July 10, 2023`
 
 <details>
 <summary><b>Changelogs</b></summary>
+
+## July 2023
+- Updated ISO profile with latest archiso
+- Latest base with new packages
+- Fixed `xfce-power-manager` issue (not locking the screen on lid close)
+- Fixed sddm not saving the last used session issue
+- Added a calculator app
+- Added Welcome and Help-and-Tips App
+- Fixed Scaling issue in QT apps in wayland
+- **`Openbox WM`**
+  - Added `tint2` as alternate panel (in all themes)
+  - Ability to switch between panels
+  - Added `bluetooth` module on both panels
+  - Added a rofi `bluetooth` applet
+  - Fixed window resizing issue via each side of window
+  - etc
+- **`BSPWM`**
+  - Added `bluetooth` module on polybar (in all themes)
+  - Added a rofi `bluetooth` applet
+  - etc
+- **`I3wm`**
+  - Added `bluetooth` module on polybar (in all themes)
+  - Added a rofi `bluetooth` applet
+  - etc
+- **`Sway, Wayfire, River, Hyprland`**
+  - Added `bluetooth` module on Waybar
+  - Added a rofi `bluetooth` applet
+  - Added `alacritty` terminal
+  - Added `pywal` support
+  - Improved a lot of scripts
+  - etc
+- Many small bugs fixed.
+
+---
 
 ## May 2023
 - Nothing Much, Just Updated The ISO with Fixed NEWM
@@ -239,6 +274,6 @@ Now, It's your choise to give it a try.
 
 ---
 
-- For **Keybindings**, Visit the respective compositor page.
+- For **Keybindings**, See `Help and Tips` app.
 - I Hope you'll enjoy this flavor of Archcraft.
 - Thank you for supporting Archcraft.
