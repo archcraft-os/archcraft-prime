@@ -32,17 +32,41 @@
 
 The flavor of Archcraft is a result of many people's requests and polls ([discord](https://discord.com/channels/888837929789710387/890046536778678355/1091409213147844658), [telegram](https://t.me/archcraftos/48993)) I did on communities. Based on the majority of voting in favor of the creation of this flavor, I present you the **`Archcraft Prime`**.
 
-**Archcraft Prime** offers every exclusive stuff of Archcraft in ***One Single ISO***. It has [`Openbox`](https://ko-fi.com/s/9b2de4919f), [`Bspwm`](https://ko-fi.com/s/5c859ad898) and [`i3wm`](https://ko-fi.com/s/a529474abf) (all premium) as well as all the exclusive wayland compositors ([`Sway`](https://github.com/archcraft-os/archcraft-sway), [`Wayfire`](https://github.com/archcraft-os/archcraft-wayfire), [`River`](https://github.com/archcraft-os/archcraft-river), [`Hyprland`](https://github.com/archcraft-os/archcraft-hyprland) and [`Newm`](https://github.com/archcraft-os/archcraft-newm)) pre-installed.
+**Archcraft Prime** offers every (`Not the one released after Prime`) exclusive stuff of Archcraft in ***One Single ISO***. It has [`Openbox`](https://ko-fi.com/s/9b2de4919f), [`Bspwm`](https://ko-fi.com/s/5c859ad898) and [`i3wm`](https://ko-fi.com/s/a529474abf) as well as all the exclusive wayland compositors ([`Sway`](https://github.com/archcraft-os/archcraft-sway), [`Wayfire`](https://github.com/archcraft-os/archcraft-wayfire), [`River`](https://github.com/archcraft-os/archcraft-river), [`Hyprland`](https://github.com/archcraft-os/archcraft-hyprland) and [`Newm`](https://github.com/archcraft-os/archcraft-newm)) pre-installed.
 
 It's basically a **Bundle** that has everything Archcraft has to offer exclusively. The idea behind this is to provide everything for less and If users want everything, they don't need to get them separately, and have to install everything individually, Instead they can get the complete bundle and all they need to do is, Install the ISO (with the choice of their favorite WM or WC)
 
 **1st ISO Generation :** `Apr 28, 2023` <br>
 **2nd ISO Generation :** `May 06, 2023` <br>
 **3rd ISO Generation :** `July 10, 2023` <br>
-**Last Updated :** `July 10, 2023`
+**4th ISO Generation :** `October 14, 2023` <br>
+**Last Updated :** `October 14, 2023`
 
 <details>
 <summary><b>Changelogs</b></summary>
+
+## October 2023
+- Updated ISO profile
+- Latest base with new packages
+- Added `archcraft-randr` app to manager display and monitors (Only X11)
+- Updated all window managers
+  - Clean PKGBUILDs (`with only needed deps`) and updated code
+  - Directory **openbox-themes** now merged into **openbox**, new config structure for openbox
+  - Added **example layouts** for multi-monitors in `bspwmrc` (single, two-monitors, three-monitors layouts)
+  - Added multi-monitor support in all available WMs (use `archcraft-randr`)
+- Updated all wayland compositors
+  - Added better example for multi-monitor support in...
+    - Sway: `~/.config/sway/sway-output`
+    - Wayfire: `~/.config/wayfire.ini`
+    - River: `~/.config/river/init`
+    - Hyprland: `~/.config/hypr/hyprland.conf`
+    - Newm: `~/.config/newm/config.py`
+- Added `wipe` ability in ABIF
+- Fixed issue with `help and tips` app
+- Removed `python2` as it's not needed anymore
+- Small improvements and bugs fixed.
+
+---
 
 ## July 2023
 - Updated ISO profile with latest archiso
