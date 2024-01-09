@@ -39,11 +39,32 @@ It's basically a **Bundle** that has everything Archcraft has to offer exclusive
 **1st ISO Generation :** `Apr 28, 2023` <br>
 **2nd ISO Generation :** `May 06, 2023` <br>
 **3rd ISO Generation :** `July 10, 2023` <br>
-**4th ISO Generation :** `October 14, 2023` <br>
-**Last Updated :** `October 14, 2023`
+**4th ISO Generation :** `Oct 14, 2023` <br>
+**5th ISO Generation :** `Jan 09, 2024` <br>
+**Last Updated :** `Jan 09, 2024`
 
 <details>
 <summary><b>Changelogs</b></summary>
+
+## January 2024
+- Updated ISO profile
+- Latest base with new packages
+- Update all Archcraft and AUR packages
+- Updated all window managers
+  - Openbox: Fixed some pipemenus and updated configs and themes
+  - Bspwm: updated configs and themes (tray module for polybar)
+  - i3wm: updated configs and themes (tray module for polybar)
+- Updated all wayland compositors
+  - Sway: fixed bugs and updated configs
+  - Wayfire: migrated to v0.8.0 and updated configs accordingly
+  - River: fixed bugs and updated configs
+  - Hyprland: using my own hyprland build for stability and updated configs to v0.34.0
+  - Newm: fixed issue with waybar gets hidden behind windows and updated configs
+- Migrated `alacritty` to its new config (`yml` to `toml`)
+- Updated **all scripts** related to alacritty
+- Small improvements and bugs fixed.
+
+---
 
 ## October 2023
 - Updated ISO profile
@@ -149,7 +170,7 @@ For CLI (abif) Installation Instructions, See [Install Archcraft With ABIF](http
 The ISO have everything configured **out-of-the-box**, Needed to run a _wayland compositor_ on **Nvidia**. It has all the needed modules enabled into `mkinitcpio.conf` and **initrd**, `Kernel parameters` are added, and the needed proprietary graphics drivers installed.<br>
 Now, It's your choise to give it a try.
 
-**Update:** As Reported, Users are able to boot and Install the Latest ISO (April) on their Nvidia Machines. Everything is working fine.
+**Update:** As Reported, Users are able to boot and Install the ISO on their Nvidia Machines. Everything is working fine.
 
 **More info :** [Sway Installation](https://wiki.archlinux.org/title/Sway#Installation), [Hyprland Nvidia](https://wiki.hyprland.org/Nvidia/), [wayland Requirements](https://wiki.archlinux.org/title/wayland#Requirements), [DRM_kernel_mode_setting](https://wiki.archlinux.org/title/NVIDIA#DRM_kernel_mode_setting), [NVIDIA#Installation](https://wiki.archlinux.org/title/NVIDIA#Installation)
 
@@ -157,6 +178,8 @@ Now, It's your choise to give it a try.
 <br>
 
 **`WARNING : Iris XE -`** Some users reported that, The Wayland Compositors on this ISO does not work on systems with `Intel Iris XE` GPUs. Keep that in mind while going for it.
+
+**Update:** I've personally tested the ISO with an `Nvidia + Intel iris XE` system (***Dell Inspiron 5520***) and the ISO is working just fine.
 
 ---
 
